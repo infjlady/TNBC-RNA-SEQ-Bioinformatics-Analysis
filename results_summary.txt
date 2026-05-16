@@ -1,0 +1,27 @@
+Project Title:
+Transcriptomic Analysis of Carboplatin Resistance in Triple-Negative Breast Cancer
+
+Dataset:
+GSE309617
+
+Analysis Performed:
+- Differential gene expression analysis using DESeq2
+- Volcano plot generation
+- Heatmap visualization
+- Significant DEG extraction
+
+Key Results:
+- Resistant and sensitive TNBC tumors showed distinct transcriptomic patterns.
+- Significant DEGs associated with carboplatin resistance were identified.
+- Heatmap clustering demonstrated transcriptomic separation between resistant and sensitive tumors.
+- Volcano plot revealed multiple significantly altered genes.
+
+Biological Interpretation:
+The analysis suggests that carboplatin resistance in TNBC is associated with substantial transcriptomic remodeling involving pathways linked to tumor progression, survival signaling, and therapeutic adaptation.
+
+Potential Future Analyses:
+- KEGG pathway enrichment
+- GO Biological Process enrichment
+- Hub gene network analysis
+- Epigenetic pathway interpretation
+- Integration with DNA methylation datasets

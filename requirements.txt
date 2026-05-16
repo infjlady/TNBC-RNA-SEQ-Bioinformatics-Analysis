@@ -1,0 +1,10 @@
+R version 4.6.0
+
+Packages:
+DESeq2
+BiocManager
+GEOquery
+tidyverse
+dplyr
+pheatmap
+EnhancedVolcano
