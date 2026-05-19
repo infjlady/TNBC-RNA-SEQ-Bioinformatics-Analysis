@@ -1,4 +1,4 @@
-# 🧬 Transcriptomic Analysis of Carboplatin Resistance in TNBC
+#  Transcriptomic Analysis of Carboplatin Resistance in TNBC
 
 > Differential gene expression analysis workflow for investigating transcriptomic alterations associated with carboplatin resistance in Triple-Negative Breast Cancer (TNBC).
 
@@ -6,7 +6,7 @@
 ![DESeq2](https://img.shields.io/badge/Bioconductor-DESeq2-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-purple.svg)
 
-## 📌 Project Overview
+##  Project Overview
 
 This repository contains a complete pipeline for analyzing bulk RNA-seq data to uncover transcriptomic remodeling associated with chemotherapy resistance. Using DESeq2 in R, we analyzed the **GEO dataset GSE309617** to identify differentially expressed genes between carboplatin-sensitive and carboplatin-resistant TNBC tumors.
 
@@ -18,7 +18,7 @@ The workflow encompasses:
 
 ---
 
-## 📊 Dataset Information
+##  Dataset Information
 
 - **GEO Accession:** [GSE309617](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE309617)
 - **Title:** Therapeutic Synergy Overcomes Carboplatin Resistance in Triple-Negative Breast Cancer
@@ -27,7 +27,7 @@ The workflow encompasses:
 
 ---
 
-## 🔬 Methodology & Workflow
+##  Methodology & Workflow
 
 Our RNA-seq analysis pipeline follows these core steps:
 
@@ -39,7 +39,7 @@ Our RNA-seq analysis pipeline follows these core steps:
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 ├── data/                    # Raw count matrices and metadata
@@ -58,7 +58,7 @@ Our RNA-seq analysis pipeline follows these core steps:
 
 ---
 
-## 🚀 Key Findings
+##  Key Findings
 
 - **Distinct Clustering:** Resistant and sensitive TNBC tumors exhibited clearly distinct transcriptomic clustering profiles.
 - **Significant Alterations:** Multiple DEGs associated with therapeutic adaptation and tumor progression were identified.
@@ -68,7 +68,7 @@ For a more detailed breakdown, please see the `results_summary.txt` file.
 
 ---
 
-## 🛠️ Requirements & Installation
+##  Requirements & Installation
 
 Analysis was conducted using **R version 4.6.0**. 
 
@@ -83,7 +83,7 @@ A complete list of dependencies can be found in `requirements.txt`.
 
 ---
 
-## 🔮 Future Directions
+##  Future Directions
 
 - **Pathway Enrichment:** GO Biological Process and KEGG pathway analyses.
 - **Network Systems Biology:** Hub gene identification using STRING and Cytoscape.
@@ -92,9 +92,9 @@ A complete list of dependencies can be found in `requirements.txt`.
 
 ---
 
-## ✍️ Author
+##  Author
 **Sakshi Swami**  
 *Bioinformatics | Transcriptomics | Computational Biology*
 
-## 📜 License
+##  License
 This project is licensed under the [MIT License](LICENSE).
